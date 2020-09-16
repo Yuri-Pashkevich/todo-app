@@ -1,0 +1,24 @@
+@import './reset.scss';
+.bg {
+    background-image: url('/img/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 500px;
+}
+.app-bg {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 20px;
+}
+.top-panel {
+    margin: 20px 0;
+}

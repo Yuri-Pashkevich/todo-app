@@ -1,0 +1,18 @@
+@import './reset.scss';
+
+.item-add-form {
+    margin-top: 20px;
+    .btn-info {
+      width: 180px; 
+  }
+}
+.form-control {
+  margin-right: 20px;
+}
+
+.item-add-error {
+  text-align: center;
+  display: block;
+  color: red;
+  margin-top: 10px;
+}
